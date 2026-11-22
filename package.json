@@ -1,0 +1,5 @@
+{
+  "name": "traceback-lab",
+  "private": true,
+  "scripts": { "dev": "python run.py" }
+}

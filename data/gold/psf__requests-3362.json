@@ -1,0 +1,57 @@
+{
+  "case_id": "psf__requests-3362",
+  "label_version": "old-coordinates-semantic-v2",
+  "positive_ids": [
+    "786e4e4e6ccc9262df902d6b"
+  ],
+  "changes": [
+    {
+      "path": "requests/utils.py",
+      "old_start": 361,
+      "old_count": 0,
+      "new_count": 1,
+      "category": "function_insertion",
+      "symbol_ids": [
+        "786e4e4e6ccc9262df902d6b"
+      ]
+    },
+    {
+      "path": "requests/utils.py",
+      "old_start": 362,
+      "old_count": 4,
+      "new_count": 11,
+      "category": "function_change",
+      "symbol_ids": [
+        "786e4e4e6ccc9262df902d6b"
+      ]
+    },
+    {
+      "path": "requests/utils.py",
+      "old_start": 367,
+      "old_count": 1,
+      "new_count": 0,
+      "category": "function_change",
+      "symbol_ids": [
+        "786e4e4e6ccc9262df902d6b"
+      ]
+    }
+  ],
+  "mapped_groups": 3,
+  "total_groups": 3,
+  "mapping_coverage": 1.0,
+  "scope": "fully_mapped",
+  "patch": "diff --git a/requests/utils.py b/requests/utils.py\n--- a/requests/utils.py\n+++ b/requests/utils.py\n@@ -358,13 +358,20 @@ def get_encoding_from_headers(headers):\n \n def stream_decode_response_unicode(iterator, r):\n     \"\"\"Stream decodes a iterator.\"\"\"\n+    encoding = r.encoding\n \n-    if r.encoding is None:\n-        for item in iterator:\n-            yield item\n-        return\n+    if encoding is None:\n+        encoding = r.apparent_encoding\n+\n+    try:\n+        decoder = codecs.getincrementaldecoder(encoding)(errors='replace')\n+    except (LookupError, TypeError):\n+        # A LookupError is raised if the encoding was not found which could\n+        # indicate a misspelling or similar mistake.\n+        #\n+        # A TypeError can be raised if encoding is None\n+        raise UnicodeError(\"Unable to decode contents with encoding %s.\" % encoding)\n \n-    decoder = codecs.getincrementaldecoder(r.encoding)(errors='replace')\n     for chunk in iterator:\n         rv = decoder.decode(chunk)\n         if rv:\n",
+  "patch_sha256": "b01a0725388fe425cdeb669b24d1b253b5803235c8f4d7d9deea5f6d8be37276",
+  "patch_applies": true,
+  "dynamic_reproduction": "not_run",
+  "fix_url": "https://github.com/psf/requests/pull/3362",
+  "positive_symbols": [
+    {
+      "id": "786e4e4e6ccc9262df902d6b",
+      "path": "requests/utils.py",
+      "qualname": "stream_decode_response_unicode",
+      "start_line": 359,
+      "end_line": 374
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "format": "compact-dan-v1",
+  "weights_sha256": "2eff1d45a5ea7486ea9ebb6527d7de304199d1caaf7730c30cf6475523b3ba53",
+  "corpus": "installed CPython standard library; docstring to implementation",
+  "python": "3.12.14",
+  "torch": "2.7.1+cpu",
+  "seed": 31,
+  "pairs_fingerprint": "fce3e453f191c30ec4fc8ee3977b63752b6bcf0e1888a85ae037c2ff5627f27f",
+  "training_pairs": 4984,
+  "validation_pairs": 525,
+  "metric": "docstring retrieval MRR; stdlib module holdout",
+  "initial_random_mrr": 0.2809663414955139,
+  "query_token_dropout": 0.15,
+  "code_token_dropout": 0.2,
+  "selected_epoch": 9,
+  "history": [
+    {
+      "epoch": 1,
+      "mean_loss": 2.922491,
+      "mrr": 0.27478834986686707
+    },
+    {
+      "epoch": 2,
+      "mean_loss": 2.670324,
+      "mrr": 0.2824369966983795
+    },
+    {
+      "epoch": 3,
+      "mean_loss": 2.465591,
+      "mrr": 0.28045564889907837
+    },
+    {
+      "epoch": 4,
+      "mean_loss": 2.284153,
+      "mrr": 0.2846614420413971
+    },
+    {
+      "epoch": 5,
+      "mean_loss": 2.124062,
+      "mrr": 0.2834799885749817
+    },
+    {
+      "epoch": 6,
+      "mean_loss": 1.986023,
+      "mrr": 0.2856504023075104
+    },
+    {
+      "epoch": 7,
+      "mean_loss": 1.859237,
+      "mrr": 0.2893466055393219
+    },
+    {
+      "epoch": 8,
+      "mean_loss": 1.718713,
+      "mrr": 0.29080331325531006
+    },
+    {
+      "epoch": 9,
+      "mean_loss": 1.630335,
+      "mrr": 0.29438018798828125
+    },
+    {
+      "epoch": 10,
+      "mean_loss": 1.522406,
+      "mrr": 0.2895876169204712
+    },
+    {
+      "epoch": 11,
+      "mean_loss": 1.424589,
+      "mrr": 0.28869983553886414
+    },
+    {
+      "epoch": 12,
+      "mean_loss": 1.30319,
+      "mrr": 0.292380154132843
+    }
+  ]
+}

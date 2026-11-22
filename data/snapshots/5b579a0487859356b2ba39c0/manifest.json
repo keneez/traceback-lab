@@ -1,0 +1,52 @@
+{
+  "id": "5b579a0487859356b2ba39c0",
+  "repository": "psf/requests",
+  "revision": "110048f9837f8441ea536804115e80b69f400277",
+  "source_url": "https://github.com/psf/requests",
+  "tree_hash": "9fed9f276d50b1df08a17cd647a151e7c0320e42fbdb51cf50ef4650137426ba",
+  "parser_version": "tree-sitter-0.25.2-python-0.25.0-v4",
+  "schema_version": "5",
+  "symbol_count": 194,
+  "file_count": 17,
+  "edge_count": 129,
+  "parse_errors": [],
+  "excluded_parts": [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "_vendor",
+    "build",
+    "dist",
+    "migrations",
+    "node_modules",
+    "test",
+    "testing",
+    "tests",
+    "vendor",
+    "vendored",
+    "venv"
+  ],
+  "excluded_prefixes": [
+    "requests/packages/",
+    "src/requests/packages/"
+  ],
+  "file_hashes": {
+    "docs/_themes/flask_theme_support.py": "bba3677c6eeb99f678e808e90142a025b798b7658bac1ab4632591df8441d209",
+    "docs/conf.py": "ac552c9e83906e8547f6c3a53bbd164ab04dcd384de164f7096e3fade202a6e5",
+    "requests/__init__.py": "465e36de457e3014c50e24ed10e2623fd0ae6ae6c54a2f2b1daab3ab5281374c",
+    "requests/adapters.py": "a55f48ee2d619c3054c85cb5f607ce9b171ba3ac5c016020424bdb8e5bf8556c",
+    "requests/api.py": "e31ada6c137cd326aa1f1b289875500f4f6fd959dd802cf5712b049d1bc618bd",
+    "requests/auth.py": "c766c5a872b72e46e6eea3d4ca1fdd02a60b4c34e8b418bed736bd12909d0345",
+    "requests/certs.py": "c126aa8523680748a0a7a0dafa15b0d23b5720229705b2fc692f6cc2d865b79d",
+    "requests/compat.py": "246ac93d5d9819ab73c2b7b197d912b7c67c42d9856e84591fdcb0b0b2bf30c0",
+    "requests/cookies.py": "06330ab6b23c4d7403e68415793a18b64441175e3d788f395215ac046c2c25a7",
+    "requests/exceptions.py": "cfedd0a6271a7cab4887ce5b30468294bd8ea4d3ddb1ce933fff3729cb1587c6",
+    "requests/hooks.py": "f6f362ba244745de50cba057ff4a751f736c5330e8d4cfc76854760052f8d538",
+    "requests/models.py": "c736269f3fd404a69b80bdff908497a89e837bd9916b6ed367b6d1cb0cf05cac",
+    "requests/sessions.py": "9ca65f6e9cc89cd13154143db72d7c2c668a0e975a7f10852e3d39a3252e4023",
+    "requests/status_codes.py": "2d8a6a2efe0010ab933dbcbe412be097f808edf7159540ea481727748c17f908",
+    "requests/structures.py": "9fb92004e5099d05d64c9a518744b36b892e5a1b963249f7593678236e7f0119",
+    "requests/utils.py": "30c2b99f6c674333148ad4c6889ceaf2780e798a9f8ac54f27f86344a2d8e227",
+    "setup.py": "4264d70db4af18d3ac44519037a5855d300cd2d24318ecf838f6bb84de1546f4"
+  }
+}

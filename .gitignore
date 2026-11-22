@@ -1,0 +1,13 @@
+.venv/
+.state/
+models/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+frontend/node_modules/
+frontend/.vite/
+.DS_Store
+Thumbs.db
+dist/
+build/

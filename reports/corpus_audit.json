@@ -1,0 +1,520 @@
+{
+  "source": "SWE-bench/SWE-bench_Lite",
+  "source_records_hash_based": true,
+  "historical_text_audited": false,
+  "records": [
+    {
+      "case_id": "mwaskom__seaborn-2848",
+      "repository": "mwaskom/seaborn",
+      "status": "prepared",
+      "functions": 798,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "94621cef29f80282436d73e8d2c0aa76dab81273",
+      "source_record_hash": "efebe6114f8f2176400824361bacb64e70edf754b56d6ba6e3ad5a1a162f82e3",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "mwaskom__seaborn-3010",
+      "repository": "mwaskom/seaborn",
+      "status": "prepared",
+      "functions": 835,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "0f5a013e2cf43562deec3b879458e59a73853813",
+      "source_record_hash": "f028edf7b5dd5d3ee308fd201e00b68a9a03a8885042c4f5cdf889b5dbccd58c",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "mwaskom__seaborn-3190",
+      "repository": "mwaskom/seaborn",
+      "status": "prepared",
+      "functions": 857,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "4a9e54962a29c12a8b103d75f838e0e795a6974d",
+      "source_record_hash": "7aff6425eecc76c6bfb0c59e51cecb6a559110a3c86c19fbe5d125b345101b0a",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "mwaskom__seaborn-3407",
+      "repository": "mwaskom/seaborn",
+      "status": "prepared",
+      "functions": 883,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "515286e02be3e4c0ff2ef4addb34a53c4a676ee4",
+      "source_record_hash": "26df371daba61e523879a7abc4129ff49bd003ce21191405f432c15a500fc133",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pallets__flask-4045",
+      "repository": "pallets/flask",
+      "status": "prepared",
+      "functions": 378,
+      "positive_count": 2,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "d8c37f43724cd9fb0870f77877b7c4c7e38a19e0",
+      "source_record_hash": "3d3f2a73e56b3be174ca294aea0ecdbf51525d804a0d9a761fd1c6b39ed55373",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pallets__flask-4992",
+      "repository": "pallets/flask",
+      "status": "prepared",
+      "functions": 394,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "4c288bc97ea371817199908d0d9b12de9dae327e",
+      "source_record_hash": "6bef944aa00e8bb84a3c2c247e7e75adfae14d9441c8e7197f9477da726c62c4",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pallets__flask-5063",
+      "repository": "pallets/flask",
+      "status": "prepared",
+      "functions": 391,
+      "positive_count": 1,
+      "mapping_coverage": 0.8888888888888888,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "182ce3dd15dfa3537391c3efaf9c3ff407d134d4",
+      "source_record_hash": "f8211b3f0155b5aa2f7ef3c50cd455bcc32648379357475b6f214cbb632dd2a3",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "psf__requests-1963",
+      "repository": "psf/requests",
+      "status": "prepared",
+      "functions": 194,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "110048f9837f8441ea536804115e80b69f400277",
+      "source_record_hash": "c29ae6dc5eb3d0d0c514421e077c7b4b1d203b71e8f0bf3681b4c9fe9e0c3c1a",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "psf__requests-2148",
+      "repository": "psf/requests",
+      "status": "prepared",
+      "functions": 195,
+      "positive_count": 1,
+      "mapping_coverage": 0.3333333333333333,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "fe693c492242ae532211e0c173324f09ca8cf227",
+      "source_record_hash": "ca16fff6667ce9d1e7bcd21da8de22e6c8d43b3e4e38527f34a04474cb4ecd1c",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "psf__requests-2317",
+      "repository": "psf/requests",
+      "status": "prepared",
+      "functions": 197,
+      "positive_count": 1,
+      "mapping_coverage": 0.5,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "091991be0da19de9108dbe5e3752917fea3d7fdc",
+      "source_record_hash": "0f233352348fefe6791b028dac122b401c3a552636ed25f3f8b48d1b99d37cfd",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "psf__requests-2674",
+      "repository": "psf/requests",
+      "status": "prepared",
+      "functions": 199,
+      "positive_count": 1,
+      "mapping_coverage": 0.5,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "0be38a0c37c59c4b66ce908731da15b401655113",
+      "source_record_hash": "d7f07e6ec1679158a37c79cb6bc4fa153d62bd1524a7ba20fbdc452f61534b7f",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "psf__requests-3362",
+      "repository": "psf/requests",
+      "status": "prepared",
+      "functions": 211,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "36453b95b13079296776d11b09cab2567ea3e703",
+      "source_record_hash": "30d87319d32aa2759f3423f533bb4425729c2695b0a25377d685700e2dd54cab",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "psf__requests-863",
+      "repository": "psf/requests",
+      "status": "prepared",
+      "functions": 150,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "a0df2cbb10419037d11d04352b3175405ab52941",
+      "source_record_hash": "dcd7d476edc3b4c8be48b30dc5337afc60c6e87402a2c2da95ba24b0d54c3b3e",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-11143",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1907,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "6995257cf470d2143ad1683824962de4071c0eb7",
+      "source_record_hash": "b177df09eca3550cc0fc9120c2160fbea4514e0fc1100c20046828323c316b4d",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-11148",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1907,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "2f7415cfbc4b6ca62f9013f1abd27136f46b9653",
+      "source_record_hash": "868ce1e284f118227430e891ce127d31579bcdc309e8c73978155b82bd898c19",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-5103",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1480,
+      "positive_count": 0,
+      "mapping_coverage": 0.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "10ca84ffc56c2dd2d9dc4bd71b7b898e083500cd",
+      "source_record_hash": "70be3503c1837f9d5e3f1c3195e0d943548fa5d97efa8daed770d44ab29bb281",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-5221",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1475,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "4a2fdce62b73944030cff9b3e52862868ca9584d",
+      "source_record_hash": "b513f9e0f7f3d72f338e50ab8343ef4498f5bfc5d97c6a6419709ee696424e77",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-5227",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1475,
+      "positive_count": 0,
+      "mapping_coverage": 0.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "2051e30b9b596e944524ccb787ed20f9f5be93e3",
+      "source_record_hash": "744142d0be2c957e56e65f7f1a346e2c9a236720e6d76dea3038a3da4720b27a",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-5413",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1457,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "450d2646233c670654744d3d24330b69895bb9d2",
+      "source_record_hash": "46b92d9402c4284d9463a318594db37691e1fc7050c776ba33b92cfed45ed310",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-5495",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1458,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "1aefb24b37c30fba8fd79a744829ca16e252f340",
+      "source_record_hash": "8c7622cd0a6576cf0a2cadb3ee716c9042f8a2db2ab136f88c6620ab5e350b83",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-5692",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1464,
+      "positive_count": 1,
+      "mapping_coverage": 0.3333333333333333,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "29e336bd9bf87eaef8e2683196ee1975f1ad4088",
+      "source_record_hash": "d830d2e13ae398321c1eb8667e655d432e9d3e4567faf85c7cc81b8773d7ce67",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-6116",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1512,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "e670ff76cbad80108bde9bab616b66771b8653cf",
+      "source_record_hash": "01024aeece55f01f7efde2e4f93b0a24e9a62c31a0557cb8b6b3f7bebf1bb8a6",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-7168",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1555,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "4787fd64a4ca0dba5528b5651bddd254102fe9f3",
+      "source_record_hash": "baa26adb560f8e0a84cf7fbf617daf1e4280dbfd257b7aff54d61933e4b98b8d",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-7220",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1596,
+      "positive_count": 1,
+      "mapping_coverage": 0.5,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "56bf819c2f4eaf8b36bd8c42c06bb59d5a3bfc0f",
+      "source_record_hash": "e181c1cdbf537fff333865367fa0daaab95941372ff66c361f0fc92b24f2d881",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-7373",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1634,
+      "positive_count": 2,
+      "mapping_coverage": 0.4,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "7b77fc086aab8b3a8ebc890200371884555eea1e",
+      "source_record_hash": "dedb3bd515c34a872be9cdb80570b3be0e3250993825caa1878af86b866368d3",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-7432",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1635,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "e6e300e729dd33956e5448d8be9a0b1540b4e53a",
+      "source_record_hash": "cfb2cf7e102ff1eb1f6168c72f3b5d12c445d6608a0fe6855067f7d753a71fd5",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-7490",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1621,
+      "positive_count": 2,
+      "mapping_coverage": 0.8333333333333334,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "7f7a36478abe7dd1fa993b115d22606aa0e35e88",
+      "source_record_hash": "36b251eba58b5c0787c84f39c90b3345076e3f7427ef5c267d49fbb27b0c9193",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-8365",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1719,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "4964b468c83c06971eb743fbc57cc404f760c573",
+      "source_record_hash": "f9f3b6df82d7365430919491ff87b05fbaab58850d6ab1dd7ba954c009248a6e",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-8906",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1736,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "69356d20cfee9a81972dcbf93d8caf9eabe113e8",
+      "source_record_hash": "3aead7ff5f72a7d496c1badd7993c1f9ae2dae00632a9bdef0ff4af7dd58ab44",
+      "label_version": "old-coordinates-semantic-v2"
+    },
+    {
+      "case_id": "pytest-dev__pytest-9359",
+      "repository": "pytest-dev/pytest",
+      "status": "prepared",
+      "functions": 1752,
+      "positive_count": 1,
+      "mapping_coverage": 1.0,
+      "patch_applies": true,
+      "audit": {
+        "contains_diff": false,
+        "links_own_fix": false,
+        "contains_solution_language": false
+      },
+      "base_commit": "e2ee3144ed6e241dea8d96215fcdca18b3892551",
+      "source_record_hash": "953f4ad4aa3297fd6adb24b8130dc6911c4c93cea9af61829793ceffbeb65ee2",
+      "label_version": "old-coordinates-semantic-v2"
+    }
+  ],
+  "total": 30,
+  "prepared": 30,
+  "supported": 28
+}

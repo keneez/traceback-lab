@@ -1,0 +1,29 @@
+{
+  "id": "psf__requests-2674",
+  "snapshot_id": "46369a5dc7f0b40ebf74f5a7",
+  "repository": "psf/requests",
+  "base_commit": "0be38a0c37c59c4b66ce908731da15b401655113",
+  "title": "urllib3 exceptions passing through requests API",
+  "description": "I don't know if it's a design goal of requests to hide urllib3's exceptions and wrap them around requests.exceptions types.\n\n(If it's not IMHO it should be, but that's another discussion)\n\nIf it is, I have at least two of them passing through that I have to catch in addition to requests' exceptions. They are requests.packages.urllib3.exceptions.DecodeError and requests.packages.urllib3.exceptions.TimeoutError (this one I get when a proxy timeouts)\n\nThanks!",
+  "traceback": "",
+  "trace_revision": null,
+  "split": "demo",
+  "source_dataset": "SWE-bench/SWE-bench_Lite",
+  "source_revision": "record-content-hash",
+  "source_instance_id": "psf__requests-2674",
+  "source_record_hash": "d7f07e6ec1679158a37c79cb6bc4fa153d62bd1524a7ba20fbdc452f61534b7f",
+  "official_split": "test",
+  "issue_url": "",
+  "created_at": "2015-07-17T08:33:52Z",
+  "fix_available_at": "2015-07-17T08:33:52Z",
+  "timestamp_certainty": "source_timestamp_unverified",
+  "historical_text": "unverified",
+  "trace_origin": "absent",
+  "task_kind": "unreviewed",
+  "audit": {
+    "contains_diff": false,
+    "links_own_fix": false,
+    "contains_solution_language": false
+  },
+  "group_id": "35a24b2c9af5038eb45e"
+}

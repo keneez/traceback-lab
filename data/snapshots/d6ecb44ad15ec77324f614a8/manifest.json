@@ -1,0 +1,52 @@
+{
+  "id": "d6ecb44ad15ec77324f614a8",
+  "repository": "psf/requests",
+  "revision": "36453b95b13079296776d11b09cab2567ea3e703",
+  "source_url": "https://github.com/psf/requests",
+  "tree_hash": "9720616f5906974b637fa6dd317ed0cb3fea8825d91ba2ba64da531f60045a9a",
+  "parser_version": "tree-sitter-0.25.2-python-0.25.0-v4",
+  "schema_version": "5",
+  "symbol_count": 211,
+  "file_count": 17,
+  "edge_count": 150,
+  "parse_errors": [],
+  "excluded_parts": [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "_vendor",
+    "build",
+    "dist",
+    "migrations",
+    "node_modules",
+    "test",
+    "testing",
+    "tests",
+    "vendor",
+    "vendored",
+    "venv"
+  ],
+  "excluded_prefixes": [
+    "requests/packages/",
+    "src/requests/packages/"
+  ],
+  "file_hashes": {
+    "docs/_themes/flask_theme_support.py": "bba3677c6eeb99f678e808e90142a025b798b7658bac1ab4632591df8441d209",
+    "docs/conf.py": "14c03399a3086fbd450fd6fedadacbd6ca15af5b4d450f09ae2065c93dd128dc",
+    "requests/__init__.py": "65a43d6691128bc6618be487c4c27002ab3fec49f81a5be311afae24e41a4317",
+    "requests/adapters.py": "dcec9944be183540ac827227948645d44d6bf03bc36b17c207624f5400a821b9",
+    "requests/api.py": "3028954fd4c6e7a8d3842ceb7f2d692d054e097c5a4ceccd1e3f0734a0eed4fe",
+    "requests/auth.py": "601161474287f28836e748434536200bd281a8c57187dc8c8e9661d3e91779f2",
+    "requests/certs.py": "457e47d5c4a2079d876e387faafdde316f21a87105febe108afff80307f38ae5",
+    "requests/compat.py": "86aec2287a3290db3ccb328f00988e9074093e8369f40f3d32e7d37619429e26",
+    "requests/cookies.py": "4a167d9736f4aa14d5d379e169f08c417ae7ba0046af7d8cdf4144a39bbaae44",
+    "requests/exceptions.py": "972ccae48fb390d08df737d81898240ccbedb776a48f0d1052ae2af29608e300",
+    "requests/hooks.py": "8d2766663079a1127ac6628cdd5b6a91892af28153c31ea0a86f406945a9025c",
+    "requests/models.py": "447c4c88c36404663d652cd03c245502bf463ec25bbfc8dd5222e143517ca385",
+    "requests/sessions.py": "072e810fcdf3a058b88456d01e70b3fc55de1febaa1d2608a63f4789af3064bf",
+    "requests/status_codes.py": "4021ccee16c1c8124270fc6737aded08162424b8c4d38ba67799b90d2664f851",
+    "requests/structures.py": "4c9f95c80d06270cccb4bc3603d02a8875ac8ef9f38dfd2cd401c661cee7fa93",
+    "requests/utils.py": "73f536050a87f728576476c65a4fd1c6fbbbcdef964b2cf36fbce85a4a289efc",
+    "setup.py": "f9bcd0ac4883ca0a4a5ade530ad5ce97a0b82e77b475c4b1e9a7a2cb52d24037"
+  }
+}

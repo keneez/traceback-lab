@@ -1,0 +1,47 @@
+{
+  "case_id": "psf__requests-1963",
+  "label_version": "old-coordinates-semantic-v2",
+  "positive_ids": [
+    "49f6ed3299cd8101754b0320"
+  ],
+  "changes": [
+    {
+      "path": "requests/sessions.py",
+      "old_start": 171,
+      "old_count": 0,
+      "new_count": 3,
+      "category": "function_insertion",
+      "symbol_ids": [
+        "49f6ed3299cd8101754b0320"
+      ]
+    },
+    {
+      "path": "requests/sessions.py",
+      "old_start": 172,
+      "old_count": 1,
+      "new_count": 1,
+      "category": "function_change",
+      "symbol_ids": [
+        "49f6ed3299cd8101754b0320"
+      ]
+    }
+  ],
+  "mapped_groups": 2,
+  "total_groups": 2,
+  "mapping_coverage": 1.0,
+  "scope": "fully_mapped",
+  "patch": "diff --git a/requests/sessions.py b/requests/sessions.py\n--- a/requests/sessions.py\n+++ b/requests/sessions.py\n@@ -168,8 +168,11 @@ def resolve_redirects(self, resp, req, stream=False, timeout=None,\n             if new_auth is not None:\n                 prepared_request.prepare_auth(new_auth)\n \n+            # Override the original request.\n+            req = prepared_request\n+\n             resp = self.send(\n-                prepared_request,\n+                req,\n                 stream=stream,\n                 timeout=timeout,\n                 verify=verify,\n",
+  "patch_sha256": "914b5bd462fde36c834f2c019d6aff9fe0045db33499bcaded98b4fe73dc3497",
+  "patch_applies": true,
+  "dynamic_reproduction": "not_run",
+  "fix_url": "https://github.com/psf/requests/pull/1963",
+  "positive_symbols": [
+    {
+      "id": "49f6ed3299cd8101754b0320",
+      "path": "requests/sessions.py",
+      "qualname": "SessionRedirectMixin.resolve_redirects",
+      "start_line": 84,
+      "end_line": 184
+    }
+  ]
+}
